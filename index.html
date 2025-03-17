@@ -2,39 +2,118 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Date A Live Fans</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оригами Тобиичи</title>
   <style>
     body {
-      background-color: #f0f8ff;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 50px;
-    }
-    h1 {
-      color: #6a5acd;
-    }
-    p {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
       color: #333;
     }
-    button {
-      padding: 10px 20px;
-      margin-top: 20px;
-      background-color: #6a5acd;
-      color: white;
-      border: none;
-      border-radius: 5px;
+
+    header {
+      background-color: #cfe3f8;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #2c3e50;
+      font-size: 32px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff4081;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #cfe3f8;
+      padding-bottom: 5px;
+    }
+
+    .gallery img {
+      width: 150px;
+      margin: 10px;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    footer {
+      background-color: #cfe3f8;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
-  <h1>Добро пожаловать, фанаты Date A Live!</h1>
-  <p>Этот сайт для всех любителей рандеву с жизнью!</p>
-  <img src="a892c656e17a75f103f7e2e795d4b4c7.jpg"width="300">
-  <ul>
-    <li>Тобоичи Оригами</li>
-  </ul>
-  <a href="https://github.com/origamimimi" target="_blank">
-    <button>Мой GitHub</button>
-  </a>
+
+  <header>
+    <h1>Оригами Тобиичи</h1>
+    <nav>
+      <a href="#info">Информация</a>
+      <a href="#personality">Личность</a>
+      <a href="#story">История</a>
+      <a href="#gallery">Галерея</a>
+    </nav>
+  </header>
+
+  <section id="info">
+    <h2>Информация</h2>
+    <p><strong>Возраст:</strong> 16-18 лет<br>
+    <strong>День рождения:</strong> 11 ноября<br>
+    <strong>Рост:</strong> 152 см<br>
+    <strong>Цвет волос:</strong> Серебряно-белый<br>
+    <strong>Цвет глаз:</strong> Голубой (в форме духа светло-голубой и белый)</p>
+  </section>
+
+  <section id="personality">
+    <h2>Личность</h2>
+    <p>Оригами — спокойная, но очень целеустремлённая девушка. Она умна, прекрасная спортсменка и гениальная ученица, но также обладает мрачной стороной из-за трагедии в прошлом. В новой временной линии она становится более мягкой и застенчивой, сохраняя при этом внутреннюю силу.</p>
+  </section>
+
+  <section id="story">
+    <h2>История</h2>
+    <p>Пять лет назад Оригами потеряла родителей из-за духа, что привело её к ненависти к духам и вступлению в AST. Однако позже она сама стала духом, узнав, что непреднамеренно была причиной смерти своих родителей. После этого пережила инверсию и внутренний конфликт, но нашла путь к принятию себя и любви к Шидо.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Галерея</h2>
+    <div class="gallery">
+      <img src="https://i.pinimg.com/564x/e8/f6/ff/e8f6ff1f9d0c0158c65d2a6f423c98e1.jpg" alt="Origami 1">
+      <img src="https://i.pinimg.com/564x/47/2d/48/472d488ac3ae77e21edb8a6e1322c5e5.jpg" alt="Origami 2">
+      <img src="https://i.pinimg.com/564x/3f/ea/f4/3feaf4c2f3b9ec6d034e4e2a4a218e54.jpg" alt="Origami 3">
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Фан-сайт Оригами Тобиичи
+  </footer>
+
 </body>
 </html>
+
